@@ -1,0 +1,381 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = Coordinates_ALL_MIs_Feb11.txt
+Number of foci                = 787
+Number of experiments         = 46
+Total number of subjects      = 671
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = Coordinates_ALL_MIs_Feb11_ALE.nii
+FWHM minimum value            = 8.836015599903915
+FWHM median value             = 9.574940482272122
+FWHM maximum value            = 12.00015700529694
+Minimum ALE score             = 2.884008E-25
+Maximum ALE score             = 0.049967863
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = Coordinates_ALL_MIs_Feb11_P.nii
+Minimum P value               = 3.721329E-14
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 10000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 44344 mm^3
+Chosen min. cluster size      = 904 mm^3
+Thresholded ALE image         = Coordinates_ALL_MIs_Feb11_C05_10k_ALE.nii
+
+Cluster Analysis:
+  #1: 8160 mm^3 from (-14,-12,42) to (12,20,72) centered at (-1.7,3.4,58.2) with 3 peaks
+      with a max value of 0.05 ALE, 3.721329E-14 P, 7.48 Z at (-4,-2,64) 
+    Labels: (Gray Matter only)
+      Hemisphere: 65.6% Left Cerebrum, 34.4% Right Cerebrum
+      Lobe: 91.3% Frontal Lobe, 8.7% Limbic Lobe
+      Gyrus: 66.5% Medial Frontal Gyrus, 24.5% Superior Frontal Gyrus, 8.7% Cingulate Gyrus
+      Cell Type: 87% Brodmann area 6, 8.7% Brodmann area 24, 4.2% Brodmann area 32
+
+  #2: 5928 mm^3 from (-32,-80,24) to (-4,-58,56) centered at (-23.6,-69.6,43.6) with 3 peaks
+      with a max value of 0.0317 ALE, 4.0163076E-8 P, 5.37 Z at (-26,-76,38) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 98.8% Parietal Lobe, 1.2% Occipital Lobe
+      Gyrus: 80.1% Precuneus, 18.1% Superior Parietal Lobule, 1.2% Angular Gyrus
+      Cell Type: 80.7% Brodmann area 7, 16.4% Brodmann area 19, 2.3% Brodmann area 39
+
+  #3: 4088 mm^3 from (-40,-14,44) to (-18,12,66) centered at (-28.2,-2.9,56.1) with 2 peaks
+      with a max value of 0.0385 ALE, 2.9466707E-10 P, 6.19 Z at (-28,-4,56) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 53.8% Middle Frontal Gyrus, 32.3% Precentral Gyrus, 13% Sub-Gyral
+      Cell Type: 100% Brodmann area 6
+
+  #4: 4024 mm^3 from (-56,-54,40) to (-30,-30,52) centered at (-40.1,-42.7,45.6) with 2 peaks
+      with a max value of 0.0368 ALE, 1.0521592E-9 P, 5.99 Z at (-38,-42,46) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 84.3% Inferior Parietal Lobule, 15.7% Supramarginal Gyrus
+      Cell Type: 100% Brodmann area 40
+
+  #5: 3704 mm^3 from (22,-12,44) to (40,6,66) centered at (30.7,-2.6,55.4) with 1 peaks
+      with a max value of 0.0427 ALE, 1.16928515E-11 P, 6.68 Z at (30,-4,54) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 58.2% Middle Frontal Gyrus, 24.9% Precentral Gyrus, 16% Sub-Gyral
+      Cell Type: 100% Brodmann area 6
+
+  #6: 3488 mm^3 from (-56,-8,26) to (-36,16,48) centered at (-47,3.6,34.1) with 4 peaks
+      with a max value of 0.0283 ALE, 4.0561036E-7 P, 4.93 Z at (-52,6,36) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 100% Frontal Lobe
+      Gyrus: 75.3% Precentral Gyrus, 15.7% Middle Frontal Gyrus, 9% Inferior Frontal Gyrus
+      Cell Type: 78.3% Brodmann area 6, 16.3% Brodmann area 9, 4.8% Brodmann area 4
+
+  #7: 2856 mm^3 from (20,14,-8) to (48,30,12) centered at (35.9,21.8,2.7) with 1 peaks
+      with a max value of 0.0336 ALE, 1.03576285E-8 P, 5.61 Z at (34,22,2) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 85.3% Sub-lobar, 14.7% Frontal Lobe
+      Gyrus: 55% Insula, 24% Claustrum, 15.5% Inferior Frontal Gyrus, 4.7% Lentiform Nucleus
+      Cell Type: 55% Brodmann area 13, 7.8% Brodmann area 47, 4.7% Putamen, 3.1% Brodmann area 45
+
+  #8: 2688 mm^3 from (-40,12,-8) to (-24,30,14) centered at (-32,20.9,3.3) with 1 peaks
+      with a max value of 0.0388 ALE, 2.3378194E-10 P, 6.23 Z at (-30,22,4) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 98.9% Sub-lobar, 1.1% Frontal Lobe
+      Gyrus: 51.7% Insula, 41.4% Claustrum, 3.4% Extra-Nuclear, 2.3% Lentiform Nucleus, 1.1% Inferior Frontal Gyrus
+      Cell Type: 44.8% Brodmann area 13, 4.6% Brodmann area 47, 2.3% Putamen
+
+  #9: 2376 mm^3 from (26,-58,40) to (48,-36,54) centered at (38.7,-45,48.4) with 3 peaks
+      with a max value of 0.0327 ALE, 2.01843E-8 P, 5.49 Z at (40,-42,48) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 78.7% Inferior Parietal Lobule, 18% Superior Parietal Lobule, 3.3% Precuneus
+      Cell Type: 78.7% Brodmann area 40, 21.3% Brodmann area 7
+
+ #10: 2128 mm^3 from (-22,-70,6) to (-8,-48,26) centered at (-15,-58.6,15.2) with 2 peaks
+      with a max value of 0.0264 ALE, 1.41025E-6 P, 4.68 Z at (-12,-56,10) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebrum
+      Lobe: 68.7% Limbic Lobe, 31.3% Occipital Lobe
+      Gyrus: 68.7% Posterior Cingulate, 22.4% Precuneus, 7.5% Lingual Gyrus, 1.5% Cuneus
+      Cell Type: 41.8% Brodmann area 31, 38.8% Brodmann area 30, 10.4% Brodmann area 29, 9% Brodmann area 18
+
+ #11: 1512 mm^3 from (-36,-66,-42) to (-26,-52,-28) centered at (-30.7,-58.7,-34.7) with 1 peaks
+      with a max value of 0.0314 ALE, 4.8472195E-8 P, 5.33 Z at (-32,-60,-36) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Left Cerebellum
+      Lobe: 65.6% Posterior Lobe, 34.4% Anterior Lobe
+      Gyrus: 65.1% Cerebellar Tonsil, 6.3% Culmen
+      null
+
+ #12: 1288 mm^3 from (-36,-48,-20) to (-26,-36,0) centered at (-30.9,-42.4,-10.7) with 2 peaks
+      with a max value of 0.0236 ALE, 8.732746E-6 P, 4.3 Z at (-32,-44,-4) 
+    Labels: (Gray Matter only)
+      Hemisphere: 98.7% Left Cerebrum, 1.3% Left Cerebellum
+      Lobe: 62.3% Limbic Lobe, 36.4% Temporal Lobe, 1.3% Anterior Lobe
+      Gyrus: 62.3% Parahippocampal Gyrus, 36.4% Fusiform Gyrus, 1.3% Culmen
+      Cell Type: 46.8% Brodmann area 37, 22.1% Brodmann area 36, 16.9% Brodmann area 19, 13% Brodmann area 20
+
+ #13: 1192 mm^3 from (-52,-62,-22) to (-38,-48,-8) centered at (-44.2,-55.5,-15.2) with 1 peaks
+      with a max value of 0.0239 ALE, 7.309354E-6 P, 4.33 Z at (-46,-58,-14) 
+    Labels: (Gray Matter only)
+      Hemisphere: 87% Left Cerebrum, 13% Left Cerebellum
+      Lobe: 87% Temporal Lobe, 13% Anterior Lobe
+      Gyrus: 85.2% Fusiform Gyrus, 13% Culmen, 1.9% Inferior Temporal Gyrus
+      Cell Type: 87% Brodmann area 37
+
+ #14: 912 mm^3 from (10,-76,46) to (26,-62,54) centered at (16.9,-68.4,50.1) with 1 peaks
+      with a max value of 0.0272 ALE, 8.417742E-7 P, 4.79 Z at (16,-68,50) 
+    Labels: (Gray Matter only)
+      Hemisphere: 100% Right Cerebrum
+      Lobe: 100% Parietal Lobe
+      Gyrus: 100% Precuneus
+      Cell Type: 100% Brodmann area 7
+
+
+Experiment Table:
+[ 1 0 0 0 0 0 1 0 0 1 1 1 0 0 2 1 1 0 0 2 2 0 0 2 0 0 2 0 2 0 0 3 3 2 1 1 0 0 5 2 0 2 2 2 0 1 ]
+[ 0 0 1 0 0 0 2 0 1 1 0 1 1 0 3 1 0 3 0 1 0 0 2 1 0 1 2 0 1 0 0 0 2 1 1 1 0 0 0 0 0 0 1 2 0 1 ]
+[ 1 0 1 1 0 0 0 0 0 1 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 1 0 1 0 2 1 0 0 1 0 0 0 0 1 0 1 1 1 ]
+[ 1 0 1 0 0 0 2 0 0 1 3 0 0 0 2 0 2 1 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 2 0 0 1 4 2 0 0 ]
+[ 1 0 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 1 1 0 0 0 0 0 0 1 0 0 1 0 1 1 2 0 0 2 0 0 0 0 0 1 0 2 1 0 ]
+[ 1 0 1 0 1 0 2 0 0 0 0 1 0 0 0 1 1 0 0 1 0 0 0 2 0 0 0 0 1 0 0 0 0 0 1 0 0 2 2 0 0 0 0 2 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 1 0 0 0 2 0 1 0 0 2 0 1 0 4 0 0 0 0 1 1 0 2 0 0 ]
+[ 1 0 0 0 0 0 2 0 0 0 0 1 0 0 2 0 0 0 0 0 0 4 1 0 0 0 1 0 1 0 0 0 0 1 0 2 1 1 0 0 0 0 0 0 0 0 ]
+[ 1 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 2 2 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 ]
+[ 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 1 0 0 1 ]
+[ 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 4 0 0 0 2 1 0 0 0 0 1 0 1 0 0 ]
+[ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 1 0 ]
+[ 0 1 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 ]
+
+Contributors to cluster #1
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kilintari et al 2016   
+1 foci from //Kukolja et al 2006: Normals   
+2 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Sack et al 2002: Normals   
+1 foci from //Sasaoka et al 2013: Normals   
+2 foci from //Slotnick et al 2011   
+2 foci from //Soddu et al 2009: Normals   
+2 foci from //Yomogida et al 2004:Normals   
+2 foci from References=MNI   //Arzy et al 2009:Normals   
+2 foci from //Kukolja et al 20-06: Normals   
+3 foci from //Cremers et al 2012: Normals 
+3 foci from //FernandezEspejo 2014 
+2 foci from //Fougere et al 2010 
+1 foci from //Harrington et al 2009: Normals 
+1 foci from //Jahn et al 2008: Normals 
+5 foci from //Kilintari et al 2016: Normals 
+2 foci from //Piefke et al 2009: Normals 
+2 foci from //Sauvage et al 2011: Normals 
+2 foci from //Soddu et al 2009: Normals 
+2 foci from //Wagner et al 2008:Normals 
+1 foci from //zu Eulenburg et al 2013: Normals 
+
+Contributors to cluster #2
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+2 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Ishai et al 2000: Normals 
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Lambert et al 2002   
+3 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Sack et al 2002: Normals   
+3 foci from //Seurinck et al 2011: Normals   
+1 foci from //Slotnick et al 2011   
+2 foci from //Trojano et al 2000:Normals   
+1 foci from //Yomogida et al 2004:Normals   
+1 foci from //Zvyangintsev et al 2013   
+2 foci from References=MNI   //Arzy et al 2009:Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+2 foci from //FernandezEspejo 2014 
+1 foci from //Fougere et al 2010 
+1 foci from //Harrington et al 2009: Normals 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Soddu et al 2009: Normals 
+2 foci from //Wagner et al 2008:Normals 
+1 foci from //zu Eulenburg et al 2013: Normals 
+
+Contributors to cluster #3
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Boly et al 2007: Normals 
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kilintari et al 2016   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Logie et al 2011: Normals   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Sasaoka et al 2013: Normals   
+1 foci from //Seurinck et al 2011: Normals   
+1 foci from //Zvyangintsev et al 2013   
+1 foci from //Kukolja et al 20-06: Normals   
+1 foci from //References=MNI //Boly et al 2007: Normals 
+2 foci from //FernandezEspejo 2014 
+1 foci from //Fougere et al 2010 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Sauvage et al 2011: Normals 
+1 foci from //Wagner et al 2008:Normals 
+1 foci from //Whittingstall et al 2013: Normals 
+1 foci from //zu Eulenburg et al 2013: Normals 
+
+Contributors to cluster #4
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+2 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kaas et al 2009: Normals   
+3 foci from //Kilintari et al 2016   
+2 foci from //Mazard et al 2005: Normals_MOVED_OK 
+2 foci from //Sasaoka et al 2013: Normals   
+1 foci from //Seurinck et al 2011: Normals   
+2 foci from //Soddu et al 2009: Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+1 foci from //Harrington et al 2009: Normals 
+2 foci from //Kilintari et al 2016: Normals 
+1 foci from //Sauvage et al 2011: Normals 
+4 foci from //Soddu et al 2009: Normals 
+2 foci from //Wagner et al 2008:Normals 
+
+Contributors to cluster #5
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Boly et al 2007: Normals 
+1 foci from //Ishai et al 2000: Normals 
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kilintari et al 2016   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Logie et al 2011: Normals   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Seurinck et al 2011: Normals   
+1 foci from //Slotnick et al 2005: Normals_Maybe   
+1 foci from //Zvyangintsev et al 2013   
+1 foci from //Kukolja et al 20-06: Normals   
+1 foci from //References=MNI //Boly et al 2007: Normals 
+1 foci from //Cremers et al 2012: Normals 
+2 foci from //FernandezEspejo 2014 
+2 foci from //Jahn et al 2008: Normals 
+1 foci from //Sauvage et al 2011: Normals 
+2 foci from //Wagner et al 2008:Normals 
+1 foci from //Whittingstall et al 2013: Normals 
+
+Contributors to cluster #6
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Desposito et al 1997: Normals_MOVED_OK 
+2 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Sack et al 2002: Normals   
+1 foci from //Sasaoka et al 2013: Normals   
+1 foci from //Slotnick et al 2011   
+2 foci from //Yomogida et al 2004:Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+1 foci from //Harrington et al 2009: Normals 
+2 foci from //Jancke et al 2001: Normals 
+2 foci from //Kilintari et al 2016: Normals 
+2 foci from //Wagner et al 2008:Normals 
+
+Contributors to cluster #7
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Slotnick et al 2005: Normals_Maybe   
+1 foci from //Trojano et al 2000:Normals   
+2 foci from References=MNI   //Arzy et al 2009:Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+2 foci from //Cremers et al 2012: Normals 
+1 foci from //Fougere et al 2010 
+4 foci from //Jahn et al 2008: Normals 
+1 foci from //Pyke et al 2017:Normals 
+1 foci from //Sauvage et al 2011: Normals 
+2 foci from //Wagner et al 2008:Normals 
+
+Contributors to cluster #8
+1 foci from //References=MNI   //Anderson et al 2019   
+2 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kukolja et al 2006: Normals   
+2 foci from //Mazard et al 2005: Normals_MOVED_OK 
+4 foci from //Thompson et al 1999: Normals   
+1 foci from //Trojano et al 2000:Normals   
+1 foci from References=MNI   //Arzy et al 2009:Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+1 foci from //Fougere et al 2010 
+2 foci from //Jahn et al 2008: Normals 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Jancke et al 2001: Normals 
+
+Contributors to cluster #9
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+2 foci from //Sasaoka et al 2013: Normals   
+2 foci from //Seurinck et al 2011: Normals   
+1 foci from //Daselaar et al 2010: Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+1 foci from //Sauvage et al 2011: Normals 
+1 foci from //Wagner et al 2008:Normals 
+1 foci from //zu Eulenburg et al 2013: Normals 
+
+Contributors to cluster #10
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Kukolja et al 2006: Normals   
+2 foci from //Slotnick et al 2011   
+1 foci from //Cremers et al 2012: Normals 
+1 foci from //FernandezEspejo 2014 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Jancke et al 2001: Normals 
+1 foci from //Soddu et al 2009: Normals 
+1 foci from //zu Eulenburg et al 2013: Normals 
+
+Contributors to cluster #11
+1 foci from //Ishai et al 2000: Normals 
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+4 foci from //Cremers et al 2012: Normals 
+2 foci from //Jahn et al 2008: Normals 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Sauvage et al 2011: Normals 
+1 foci from //Wagner et al 2008:Normals 
+
+Contributors to cluster #12
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Slotnick et al 2011   
+1 foci from References=MNI   //Arzy et al 2009:Normals   
+1 foci from //Cremers et al 2012: Normals 
+1 foci from //Harrington et al 2009: Normals 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Jahn et al 2008: Normals 
+1 foci from //Whittingstall et al 2013: Normals 
+
+Contributors to cluster #13
+1 foci from //Belardinelli et al 2011: Normals   
+2 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Soddu et al 2009: Normals   
+1 foci from //Thompson et al 1999: Normals   
+1 foci from //Trojano et al 2000:Normals   
+1 foci from //Harrington et al 2009: Normals 
+
+Contributors to cluster #14
+1 foci from //Kaas et al 2009: Normals   
+2 foci from //Seurinck et al 2011: Normals   
+1 foci from //FernandezEspejo 2014 
+1 foci from //Harrington et al 2009: Normals 
+1 foci from //Jahn et al 2008: Normals 
