@@ -1,0 +1,201 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = Coordinates_VMI>Control_Feb20.txt
+Number of foci                = 376
+Number of experiments         = 27
+Total number of subjects      = 380
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = Coordinates_VMI>Control_Feb20_ALE.nii
+FWHM minimum value            = 8.836015599903915
+FWHM median value             = 9.574940482272122
+FWHM maximum value            = 12.00015700529694
+Minimum ALE score             = 7.4930677E-32
+Maximum ALE score             = 0.031300113
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = Coordinates_VMI>Control_Feb20_P.nii
+Minimum P value               = 1.835306E-10
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 10000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 21960 mm^3
+Chosen min. cluster size      = 736 mm^3
+Thresholded ALE image         = Coordinates_VMI>Control_Feb20_C05_10k_ALE.nii
+
+Cluster Analysis:
+ #1: 7280 mm^3 from (-52,-78,26) to (-12,-30,56) centered at (-33.1,-55.9,44.6) with 7 peaks
+     with a max value of 0.0283 ALE, 2.513129E-9 P, 5.85 Z at (-40,-44,46) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 49.6% Inferior Parietal Lobule, 29.6% Precuneus, 10.4% Superior Parietal Lobule, 9.6% Supramarginal Gyrus
+     Cell Type: 58.4% Brodmann area 40, 28.8% Brodmann area 7, 10.8% Brodmann area 19, 2% Brodmann area 39
+
+ #2: 2480 mm^3 from (22,-80,44) to (44,-36,54) centered at (34.3,-55.5,48.2) with 4 peaks
+     with a max value of 0.0198 ALE, 2.3964894E-6 P, 4.57 Z at (40,-42,48) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 49.3% Precuneus, 30.1% Superior Parietal Lobule, 20.5% Inferior Parietal Lobule
+     Cell Type: 65.8% Brodmann area 7, 20.5% Brodmann area 40, 13.7% Brodmann area 19
+
+ #3: 2464 mm^3 from (-34,-16,46) to (-18,8,64) centered at (-26.3,-4.2,56.5) with 3 peaks
+     with a max value of 0.0227 ALE, 2.425228E-7 P, 5.03 Z at (-26,-2,60) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 58.3% Middle Frontal Gyrus, 28.8% Precentral Gyrus, 12.9% Sub-Gyral
+     Cell Type: 100% Brodmann area 6
+
+ #4: 2184 mm^3 from (-10,0,46) to (12,18,58) centered at (2.4,9.4,52) with 2 peaks
+     with a max value of 0.0282 ALE, 2.6004128E-9 P, 5.84 Z at (8,14,50) 
+   Labels: (Gray Matter only)
+     Hemisphere: 65% Right Cerebrum, 35% Left Cerebrum
+     Lobe: 92.7% Frontal Lobe, 7.3% Limbic Lobe
+     Gyrus: 63.5% Medial Frontal Gyrus, 29.2% Superior Frontal Gyrus, 7.3% Cingulate Gyrus
+     Cell Type: 83.2% Brodmann area 6, 9.5% Brodmann area 32, 7.3% Brodmann area 24
+
+ #5: 2160 mm^3 from (-56,0,26) to (-36,16,44) centered at (-47.3,6.7,34.5) with 2 peaks
+     with a max value of 0.0223 ALE, 3.2821998E-7 P, 4.97 Z at (-52,10,38) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 52.8% Precentral Gyrus, 33.1% Middle Frontal Gyrus, 14.2% Inferior Frontal Gyrus
+     Cell Type: 71.7% Brodmann area 6, 23.6% Brodmann area 9, 4.7% Brodmann area 8
+
+ #6: 2160 mm^3 from (22,-10,40) to (36,4,62) centered at (30.1,-3.1,52.9) with 1 peaks
+     with a max value of 0.0313 ALE, 1.835306E-10 P, 6.27 Z at (30,-4,54) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 65.8% Middle Frontal Gyrus, 27% Precentral Gyrus, 7.2% Sub-Gyral
+     Cell Type: 100% Brodmann area 6
+
+ #7: 1904 mm^3 from (-42,8,-8) to (-26,26,8) centered at (-34.6,19.2,0.8) with 3 peaks
+     with a max value of 0.0206 ALE, 1.3170078E-6 P, 4.7 Z at (-36,18,-2) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 74.6% Insula, 25.4% Claustrum
+     Cell Type: 63.5% Brodmann area 13
+
+ #8: 1328 mm^3 from (-52,-62,-22) to (-38,-48,-10) centered at (-44.1,-55.8,-16) with 1 peaks
+     with a max value of 0.0199 ALE, 2.1341752E-6 P, 4.6 Z at (-42,-54,-18) 
+   Labels: (Gray Matter only)
+     Hemisphere: 74.6% Left Cerebrum, 25.4% Left Cerebellum
+     Lobe: 74.6% Temporal Lobe, 18.3% Anterior Lobe, 7% Posterior Lobe
+     Gyrus: 71.8% Fusiform Gyrus, 18.3% Culmen, 7% Declive, 2.8% Inferior Temporal Gyrus
+     Cell Type: 74.6% Brodmann area 37
+
+
+Experiment Table:
+[ 1 0 2 0 0 0 4 0 1 2 3 1 1 0 5 0 0 4 4 0 1 3 0 3 1 0 1 ]
+[ 1 0 1 0 0 0 0 0 1 1 0 1 0 0 2 0 2 4 2 0 0 0 0 0 0 0 0 ]
+[ 1 0 1 1 0 0 1 0 0 1 1 1 0 1 1 0 0 1 1 0 0 0 0 0 0 0 1 ]
+[ 1 0 0 0 0 0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 1 2 0 0 2 0 0 ]
+[ 1 0 1 0 1 0 2 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 2 0 0 ]
+[ 1 0 1 1 0 0 0 0 1 1 1 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 1 ]
+[ 1 0 0 0 0 0 3 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 3 0 1 0 0 ]
+[ 0 1 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 0 ]
+
+Contributors to cluster #1
+1 foci from //References=MNI   //Anderson et al 2019   
+2 foci from //Boccia et al 2015: Normals_MOVED_OK   
+4 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Ishai et al 2000: Normals 
+2 foci from //Kaas et al 2009: Normals   
+3 foci from //Kilintari et al 2016   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Lambert et al 2002   
+5 foci from //Mazard et al 2005: Normals_MOVED_OK 
+4 foci from //Sasaoka et al 2013: Normals   
+4 foci from //Seurinck et al 2011: Normals   
+1 foci from //Slotnick et al 2011   
+3 foci from //Soddu et al 2009: Normals   
+3 foci from //Trojano et al 2000:Normals   
+1 foci from //Yomogida et al 2004:Normals   
+1 foci from //Zvyangintsev et al 2013   
+
+Contributors to cluster #2
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Ishai et al 2000: Normals 
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kukolja et al 2006: Normals   
+2 foci from //Mazard et al 2005: Normals_MOVED_OK 
+2 foci from //Sack et al 2002: Normals   
+4 foci from //Sasaoka et al 2013: Normals   
+2 foci from //Seurinck et al 2011: Normals   
+
+Contributors to cluster #3
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Boly et al 2007: Normals 
+1 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kilintari et al 2016   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Logie et al 2011: Normals   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Sasaoka et al 2013: Normals   
+1 foci from //Seurinck et al 2011: Normals   
+1 foci from //Zvyangintsev et al 2013   
+
+Contributors to cluster #4
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Slotnick et al 2011   
+2 foci from //Soddu et al 2009: Normals   
+2 foci from //Yomogida et al 2004:Normals   
+
+Contributors to cluster #5
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Desposito et al 1997: Normals_MOVED_OK 
+2 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kukolja et al 2006: Normals   
+1 foci from //Sasaoka et al 2013: Normals   
+1 foci from //Slotnick et al 2011   
+2 foci from //Yomogida et al 2004:Normals   
+
+Contributors to cluster #6
+1 foci from //References=MNI   //Anderson et al 2019   
+1 foci from //Boccia et al 2015: Normals_MOVED_OK   
+1 foci from //Boly et al 2007: Normals 
+1 foci from //Ishai et al 2000: Normals 
+1 foci from //Kaas et al 2009: Normals   
+1 foci from //Kilintari et al 2016   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Seurinck et al 2011: Normals   
+1 foci from //Slotnick et al 2005: Normals_Maybe   
+1 foci from //Zvyangintsev et al 2013   
+
+Contributors to cluster #7
+1 foci from //References=MNI   //Anderson et al 2019   
+3 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Kukolja et al 2006: Normals   
+2 foci from //Mazard et al 2005: Normals_MOVED_OK 
+3 foci from //Thompson et al 1999: Normals   
+1 foci from //Yomogida et al 2004:Normals   
+
+Contributors to cluster #8
+1 foci from //Belardinelli et al 2011: Normals   
+2 foci from //Handy al 2004: Normals_MOVED_OK   
+1 foci from //Mazard et al 2005: Normals_MOVED_OK 
+1 foci from //Soddu et al 2009: Normals   
+1 foci from //Thompson et al 1999: Normals   
+1 foci from //Yomogida et al 2004:Normals   

@@ -1,0 +1,77 @@
+Mask:
+Reference Space               = MNI
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = Coordinates_VMI>Perception_Feb11.txt
+Number of foci                = 62
+Number of experiments         = 4
+Total number of subjects      = 52
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = Coordinates_VMI>Perception_Feb11_ALE.nii
+FWHM minimum value            = 9.241242951547518
+FWHM median value             = 9.755397007122182
+FWHM maximum value            = 12.00015700529694
+Minimum ALE score             = 1.4E-45
+Maximum ALE score             = 0.013215704
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = Coordinates_VMI>Perception_Feb11_P.nii
+Minimum P value               = 1.6234875E-6
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 10000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 1856 mm^3
+Chosen min. cluster size      = 528 mm^3
+Thresholded ALE image         = Coordinates_VMI>Perception_Feb11_C05_10k_ALE.nii
+
+Cluster Analysis:
+ #1: 704 mm^3 from (-8,6,48) to (10,18,56) centered at (-1.2,11.7,52.1) with 2 peaks
+     with a max value of 0.0125 ALE, 3.7220339E-6 P, 4.48 Z at (-4,10,52) 
+   Labels: (Gray Matter only)
+     Hemisphere: 65.5% Left Cerebrum, 34.5% Right Cerebrum
+     Lobe: 100% Frontal Lobe
+     Gyrus: 56.9% Superior Frontal Gyrus, 43.1% Medial Frontal Gyrus
+     Cell Type: 98.3% Brodmann area 6, 1.7% Brodmann area 32
+
+ #2: 608 mm^3 from (30,20,-4) to (40,26,6) centered at (34.9,23,0.7) with 1 peaks
+     with a max value of 0.0132 ALE, 1.6234875E-6 P, 4.65 Z at (34,22,0) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 60% Insula, 40% Claustrum
+     Cell Type: 60% Brodmann area 13
+
+ #3: 544 mm^3 from (-34,12,0) to (-26,22,8) centered at (-30,17.9,3.3) with 1 peaks
+     with a max value of 0.0126 ALE, 3.2119635E-6 P, 4.51 Z at (-30,18,2) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 100% Claustrum
+     null
+
+
+Experiment Table:
+[ 2 0 2 0 ]
+[ 2 0 1 0 ]
+[ 2 0 1 0 ]
+
+Contributors to cluster #1
+2 foci from References=MNI   //Arzy et al 2009:Normals   
+2 foci from //Kukolja et al 20-06: Normals   
+
+Contributors to cluster #2
+2 foci from References=MNI   //Arzy et al 2009:Normals   
+1 foci from //Kukolja et al 20-06: Normals   
+
+Contributors to cluster #3
+2 foci from References=MNI   //Arzy et al 2009:Normals   
+1 foci from //Kukolja et al 20-06: Normals   
